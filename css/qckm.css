@@ -1,0 +1,12 @@
+*{margin:0px; padding:0px;}
+#cs{width:500px;height:250px;position:fixed;right:-500px;top:600px;background-image: url("../images/bg.png"); border-radius: 10px 0 0 10px; filter:alpha(opacity:30); opacity:0.3;}
+#cs span{width:25px; height:100px; position: absolute; left:-25px; top:75px; background:red; border-radius: 5px 0 0 5px; line-height:25px; color:white; vertical-align:middle; text-align:center; cursor: pointer; z-index: -1}
+.a1{text-decoration:none; color:white; font-size: 14px; float:left; padding:5px; font-family:"黑体"; border:1px solid white; margin:10px; background:#ff6600; border-radius:5px;}
+.cs{text-decoration:none; color:#ff6600; font-size: 14px; float:left; padding:5px; font-family:"黑体"; border:1px solid white; margin:10px; background:white; border-radius:5px;}
+#gg{width:450px; height:180px; border:1px solid white; position: absolute; left:10px; bottom:15px; overflow:hidden;}
+#gg ul{list-style: none; position: absolute; left:0px; top:0px;}
+#gg ul li{width:450px; height:180px; cursor: pointer;}
+#num{width:200px; height:20px; position: absolute; right:20px; top:20px;}
+#num ul{position: absolute; list-style: none;}
+#num ul li{width:30px; height:10px; border:1px solid white; float:left; margin-right:5px;}
+.active{background:white;}
